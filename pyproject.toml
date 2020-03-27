@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "shotwell-mover"
+version = "0.1.0"
+description = "Tool for changing paths of media stored in Shotwell's database"
+authors = ["Tadej Janež <tadej.j@nez.si>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+shotwell-mover = "shotwell_mover.cli:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
