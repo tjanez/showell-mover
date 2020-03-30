@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "shotwell-mover"
-version = "0.1.0"
+version = "0.2.0"
 description = "Tool for changing paths of media stored in Shotwell's database"
 license = "GPL-3.0-or-later"
 authors = ["Tadej Janež <tadej.j@nez.si>"]
