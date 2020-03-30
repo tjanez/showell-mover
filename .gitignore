@@ -2,3 +2,5 @@
 __pycache__/
 # Python egg.
 /src/shotwell_mover.egg-info/
+# Python distributions.
+/dist/
