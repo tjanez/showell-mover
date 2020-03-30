@@ -4,6 +4,10 @@ version = "0.1.0"
 description = "Tool for changing paths of media stored in Shotwell's database"
 license = "GPL-3.0-or-later"
 authors = ["Tadej Janež <tadej.j@nez.si>"]
+readme = "README.md"
+homepage = "https://github.com/tjanez/showell-mover"
+repository = "https://github.com/tjanez/showell-mover"
+keywords = ["shotwell", "tool", "database", "mover"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
